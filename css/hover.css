@@ -1,0 +1,25 @@
+section a {
+    /* Você pode mudar as propriedades que quiser */
+    text-decoration: none; /* Remove o sublinhado do link */
+    position: relative; /* Permite posicionar o pseudo-elemento after */
+  }
+  
+  section a:after {
+    /* Você pode mudar as propriedades que quiser */
+    content: ''; /* Define o conteúdo do pseudo-elemento */
+    position: absolute; /* Posiciona o pseudo-elemento em relação ao link */
+    bottom: 0; /* Coloca o pseudo-elemento na parte de baixo do link */
+    left: 0; /* Coloca o pseudo-elemento na parte esquerda do link */
+    width: 100%; /* Define a largura do pseudo-elemento igual à do link */
+    height: 2px; /* Define a altura do pseudo-elemento */
+    background-color: blue; /* Define a cor do pseudo-elemento */
+    transform: scaleX(0); /* Define a escala horizontal do pseudo-elemento como zero */
+    transform-origin: right; /* Define a origem da transformação como direita */
+    transition: transform 0.5s ease-in-out; /* Define a transição da transformação */
+  }
+  
+  section a:hover:after {
+    /* Você pode mudar as propriedades que quiser */
+    transform: scaleX(1); /* Define a escala horizontal do pseudo-elemento como um */
+    transform-origin: left; /* Define a origem da transformação como esquerda */
+  }
