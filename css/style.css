@@ -116,7 +116,7 @@ header{
 article{
     margin: 20px;
     display: flex;
-    max-width: 1024px;
+    max-width: 1240px;
     height: 433px; 
     padding: 20px;
 }
@@ -132,13 +132,15 @@ article{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    width: max-content;
+    width: 100%;
     height: max-content;
 }
 
 iframe{
-    width: 620px;
-    height: 432px;
+    max-width: 540px;
+    width: calc(100vw - 500px);
+    max-height: max-content;
+    height: 400px;
 }
 
 .middle-h2{
@@ -364,6 +366,54 @@ footer{
 }
 
 @media (min-width: 320px) and (max-width: 807px){
+    
+    article{
+        justify-content: center;
+        /* width: max-content; */
+        height: max-content;   
+        padding: 20px;
+    }
+        .middle{
+            width: max-content;
+        }
+    #iframe{
+            z-index: 2;
+
+    }
+    iframe{
+        max-width: 800px;
+        width: calc(100vw - 40px);
+        /* height: 200px; */
+        /* width: 100px; */
+        /* height: calc(100vh - 40px); */
+        /* width: 100%; */
+    }
+    
+    .middle-h2{
+        /* display: none; */
+        /* top: 615px;
+        left: 200px; */
+        width: calc(100vw - 40px);
+        z-index: 1;
+        margin: 0;
+        height: auto;
+        border-radius: 0px 0px 50px 50px; 
+        text-align: center;
+    }
+
+    #h3_mobile{
+        display: none;
+    }
+    #p_mobile, h4{
+        display: none;
+    }
+    
+    .middle-h2 h2{
+        padding: 10px;
+        font-size: 24px;
+        font-weight: bold;
+    }
+    
     .card{
         box-sizing: border-box;
         /* margin: auto; */
@@ -385,11 +435,14 @@ footer{
         /* overflow: hidden; */
         width: calc(100vw - 40px);
     }
+    .mobile-menu-icon button{
+        font-size: 34px;
+    }
 
 
 }
 
-@media screen and (max-width: 999px) {
+@media (min-width: 808px) and (max-width: 999px) {
     article{
         height: 700px;   
         padding: 20px;
