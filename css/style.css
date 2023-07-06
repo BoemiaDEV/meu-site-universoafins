@@ -422,6 +422,25 @@ footer{
         /* min-width: 404px; */
         /* padding: 20px; */
         /* mar00000000000000gin: 20px; */
+        /* align-items: center; */
+    }
+    .texto{
+        text-align: center;
+        /* margin: auto; */
+        /* display: none; */
+        /* text-align: center; */
+    }
+    .texto h2, p {
+        text-align: left;
+        /* margin: auto; */
+        /* display: none; */
+        /* text-align: center; */
+    }
+    .card i{
+        margin: 0;
+        /* text-align: center; */
+        /* align-items: center; */
+        /* margin: auto; */
     }
     
     section{
@@ -434,6 +453,7 @@ footer{
         /* margin: 30px; */
         /* overflow: hidden; */
         width: calc(100vw - 40px);
+        
     }
     .mobile-menu-icon button{
         font-size: 34px;
