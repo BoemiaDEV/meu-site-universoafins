@@ -7,8 +7,8 @@
 :root{
     --background-button: #39065A;
     --conteiner: #6A0572;
-    --width-card: 350px;
-    --height-card-box: 800px;
+    --width-card: 21.875rem;
+    --height-card-box: 50rem;
 
 }
 
@@ -18,9 +18,7 @@ html{
 body{
     display: flex;
     flex-direction: column;
-    /* position: fixed; */
     vertical-align: baseline;
-    /* overflow-x: hidden; */
     background: linear-gradient(to right bottom ,#0f0119,#3f024c,#0c155a,#02165e,#000000);
     background-repeat: no-repeat;
     background-size: cover;
@@ -41,7 +39,6 @@ header{
     justify-content: space-between;
     max-width: 77.5rem;
     padding: 1.25rem 0;
-    /* min-width: 444px; */
     margin: 0rem 0.3125rem 1.25rem 0.9375rem;
 }
 
@@ -51,8 +48,8 @@ header{
 }
 
 .redes img{
-    width: 24px;
-    margin: 60px 0px 0px 10px; 
+    width: 1.5rem;
+    margin: 60px 0px 0px 0.625rem; 
 }
 
 #tiktok{
@@ -60,13 +57,13 @@ header{
 }
 
 .header{
-    max-width: 1240px;
+    max-width: 77.5rem;
 }
 
 .nav-bar{
     display: flex;
     justify-content: space-between;
-    /* padding: 1.5rem 6rem; */
+    
 }
 
 .nav-list{
@@ -76,12 +73,12 @@ header{
 
 .nav-list ul{
     display: flex;
-    /* justify-content: center; */
+    
     list-style: none;
 }
 
 .nav-item {
-    margin: 0 25px 0 0px;
+    margin: 0 1.5625rem 0 0px;
 }
 
 #Inicio{
@@ -90,20 +87,43 @@ header{
 
 .nav-link{
     text-decoration: none;
-    font-size: 28px;
-    /* font-size: min(1.5em, 23px);
-    font-size: max(0, 2em, 34px); */
+    font-size: 1.75rem;
     font-weight: 400;
+}
+
+.nav-link {
+    text-decoration: none; 
+    position: relative; 
+}
+
+.nav-link:after {
+    
+    content: ''; 
+    position: absolute;
+    bottom: 0;
+    left: 0; 
+    width: 100%; 
+    height: 2px; 
+    background-color: #ffffff; 
+    transform: scaleX(0);
+    transform-origin: right; 
+    transition: transform 0.5s ease-in-out; 
+}
+
+.nav-link:hover:after {
+    
+    transform: scaleX(1); 
+    transform-origin: left;
 }
 
 .login-button button {
     border: none;
     background-color: rgb(193, 37, 37);
-    padding: 9px;
+    padding: 0.5625rem;
     margin-right: 0.9375rem;
     border-radius: 26.5008px;
     color: #ffff;
-    font-size: 12px;
+    font-size: 0.75rem;
     cursor: pointer;
 }
 .mobile-menu-icon{
@@ -112,45 +132,7 @@ header{
 .mobile-menu{
     display: none;
 }
-/* article{
-    margin: auto;
-    width: 100vw;
-    justify-content: center;
-    height: max-content;   
-    padding: 20px;
-}
-    .middle{
-        margin: auto;
-        width: max-content;
-    }
-    
-    .frame {
-        margin: auto;
-        position: relative;
-        width: 100%;
-        height: 0;
-        padding-bottom: 56.25%; 
-    }
-    
 
-    .frame iframe {
-        margin: auto;
-        position: absolute;
-        top: 0;
-        left: 0;
-        
-        width: 0%; 
-        height: 100%;
-        border: none;
-    }
-
-
-    
-
-
-iframe{
-    max-width: 100%;
-}  */
 article{
     margin: 20px;
     display: flex;
@@ -159,13 +141,8 @@ article{
     padding: 20px;
 }
 
-/* .middle img{
-    border-radius: 10px;
-    width: max-content;
-    background-color: var(--conteiner);
-} */
+
 .middle {
-    /* object-fit: cover; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -179,9 +156,6 @@ article{
 }
 iframe{
     width: 100%;
-    /* max-width: 540px; */
-    /* width: calc(100vw - 700px); */
-    /* max-height: max-content; */
     height: 400px;
 }
 
@@ -191,10 +165,10 @@ iframe{
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
-    margin: 10px 0 0 0px;
+    margin: 0.625rem 0 0 0rem;
     background-color: #6A0572;
     height: 23.75rem;
-    border-radius: 0px 10px 10px 0px;
+    border-radius: 0px 0.625rem 0.625rem 0px;
     width: 18.75rem ; 
     transition: 10s;
 }
@@ -231,24 +205,24 @@ section{
     justify-content: center;
     align-items: center;
     /* overflow: hidden; */
-    padding: 10px;
+    padding: 0.625rem;
     width: var(--width-card);
     /* background-color: aqua; */
 }
 
 .card i{
     font-size: 20px;
-    margin-left: 145px;
+    margin-left: 9.0625rem;
     margin-right: 0;
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 .card img{
     width: 100%;
-    padding: 30px 0;
+    padding: 1.875rem 0;
 }
 .card .svg{
     color: #ffff;
-    width: 30px;
+    width: 1.875rem;
     
 }
 .button_card button{
@@ -259,13 +233,9 @@ section{
     border-radius: 1.25rem;
     background-color: var(--background-button);
     margin-bottom: 0.625rem ;
-    font-size: 23px;
+    font-size: 1.4375rem;
 }
-/* .header_box:hover {
-    transform: scale(1.1);
-    transition: 0.3s; 
-    margin: 20px;
-} */
+
 .svg{
     margin: auto;
 }
@@ -295,16 +265,16 @@ section{
 }
 
 .texto{
-    padding: 20px;
+    padding: 0rem 1.25rem;
 }
 
 .texto h2{
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
 }
 
 footer{
-    margin-top: 50px;
-    border-top: solid 5px #ffff; 
+    margin-top: 3.125rem;
+    border-top: solid 0.3125rem #ffff; 
     align-items: center;
     color: #ffff;
 }
@@ -315,11 +285,11 @@ footer{
 }   
 
 .desenvolvdo{
-    padding: 20px; 
+    padding: 1.25rem; 
 }
 
 .desenvolvdo i{
-    font-size: 30px;
+    font-size: 1.875rem;
 }
 
 .footer_redes{
@@ -337,35 +307,30 @@ footer{
 
 
 .redes_filho a{
-    margin: 20px;
-    font-size: 30px;
+    margin: 1.25rem;
+    font-size: 1.875rem;
 
 }
 #logo :hover {
-    /* Você pode mudar as propriedades abaixo de acordo com o seu gosto */
-    transform: scale(1.1); /* Aumenta o tamanho do ícone em 20% */
-    transition: 0.3s; /* Faz a transição suave */
-    filter: brightness(150%); /* Aumenta o brilho do ícone em 50% */
+    transform: scale(1.1); 
+    transition: 0.3s; 
+    filter: brightness(150%); 
 }
 
 .desenvolvdo i:hover {
-    /* Você pode mudar as propriedades abaixo de acordo com o seu gosto */
-    transform: scale(1.2); /* Aumenta o tamanho do ícone em 20% */
-    transition: 0.3s; /* Faz a transição suave */
-    filter: brightness(150%); /* Aumenta o brilho do ícone em 50% */
+    transform: scale(1.2); 
+    transition: 0.3s; 
+    filter: brightness(150%);
 }
 
 .footer_redes i:hover {
-    /* Você pode mudar as propriedades abaixo de acordo com o seu gosto */
-    transform: scale(1.2); /* Aumenta o tamanho do ícone em 20% */
-    transition: 0.3s; /* Faz a transição suave */
-    filter: brightness(150%); /* Aumenta o brilho do ícone em 50% */
+    transform: scale(1.2); 
+    transition: 0.3s; 
+    filter: brightness(150%); 
 }
 
 @media screen and (max-width: 1163px){
     .nav-link{
-        /* font-size: min(0, 2em, 34px) */
-        /* font-size: min(1.5em, 24px); */
         font-size: calc(2vw + 3px);
         
     }
@@ -376,10 +341,10 @@ footer{
 
     article{
         margin: auto;
-        max-width: 1109px;
+        max-width: 69.3125rem;
         justify-content: center;
         height: max-content;   
-        padding: 20px;
+        padding: 1.25rem;
     }
         .middle{
             margin: auto;
@@ -416,7 +381,7 @@ footer{
         width: calc(100vw - 80px);
         z-index: 1;
         height: auto;
-        border-radius: 0px 0px 50px 50px; 
+        border-radius: 0px 0px 3.125rem 3.125rem; 
         text-align: center;
     }
 
@@ -433,13 +398,25 @@ footer{
     box-sizing: border-box;
     width: max-content;
     height: max-content;
-    min-width: 380px;
+    min-width: 23.75rem;
 }
 
+.texto{
+    text-align: center;
+}
+.texto h2, p {
+    text-align: left;
+}
+.card i{
+    padding: 0.625rem;
+    margin: 0;
+}
+
+
 .header_box{
-    border-radius: 15px;
-    width: calc(100vw - 600px);
-    min-width: 380px;
+    border-radius: 0.9375rem;
+    width: calc(100vw - 37.5rem);
+    min-width: 23.75rem;
 }
 
 }
@@ -450,7 +427,7 @@ footer{
         margin: auto;
         justify-content: center;
         height: max-content;   
-        padding: 20px;
+        padding: 1.25rem;
     }
         .middle{
             margin: auto;
@@ -485,11 +462,11 @@ footer{
         max-width: 100%;
     } 
     .middle-h2{
-        width: calc(100vw - 80px);
+        width: calc(100vw - 5rem);
         z-index: 1;
         margin: 0;
         height: auto;
-        border-radius: 0px 0px 50px 50px; 
+        border-radius: 0px 0px 3.125rem 3.125rem; 
         text-align: center;
     }
 
@@ -501,55 +478,38 @@ footer{
     }
     
     .middle-h2 h2{
-        padding: 10px;
-        font-size: 24px;
+        padding: 0.625rem;
+        font-size: 1.5rem;
         font-weight: bold;
     }
     
     .card{
         box-sizing: border-box;
-        /* margin: auto; */
         width: max-content;
         height: max-content;
-        /* min-width: 404px; */
-        /* padding: 20px; */
-        /* mar00000000000000gin: 20px; */
-        /* align-items: center; */
     }
     .texto{
         text-align: center;
-        /* margin: auto; */
-        /* display: none; */
-        /* text-align: center; */
     }
     .texto h2, p {
         text-align: left;
-        /* margin: auto; */
-        /* display: none; */
-        /* text-align: center; */
     }
     .card i{
-        padding: 10px;
+        padding: 0.625rem;
         margin: 0;
-        /* text-align: center; */
-        /* align-items: center; */
-        /* margin: auto; */
     }
     
     section{
         flex-wrap: wrap;
-        /* justify-content: space-between; */
         align-items: center;
     }
 
     .header_box{
-        /* margin: 30px; */
-        /* overflow: hidden; */
-        width: calc(100vw - 80px);
+        width: calc(100vw - 5rem);
         
     }
     .mobile-menu-icon button{
-        font-size: 34px;
+        font-size: 2.125rem;
     }
 
 
@@ -581,7 +541,7 @@ footer{
         /* max-width: 540px; */
         /* width: calc(100vw - 700px); */
         /* max-height: max-content; */
-        height: 300px;
+        height: 18.75rem;
     }
 
     .middle-h2{
@@ -589,7 +549,7 @@ footer{
         z-index: 1;
         margin: 0;
         height: auto;
-        border-radius: 0px 0px 50px 50px; 
+        border-radius: 0px 0px 3.125rem 3.125rem; 
         text-align: center;
     }
 
@@ -602,8 +562,8 @@ footer{
     
     .middle-h2 h2{
         margin: 0;
-        padding: 2px 10px;
-        font-size: 20px;
+        padding: 0.125rem 0.625rem;
+        font-size: 1.25rem;
         font-weight: bold;
     }
 
@@ -620,7 +580,7 @@ footer{
         /* text-align: center; */
     }
     .card i{
-        padding: 10px;
+        padding: 0.625rem;
         margin: 0;
         /* text-align: center; */
         /* align-items: center; */
@@ -628,11 +588,11 @@ footer{
     }
 
     .tag i{
-        font-size: calc(2vw + 20px);
+        font-size: calc(2vw + 1.25rem);
     }
 
     footer{
-        font-size: 15px;
+        font-size: 0.9375rem;
     }
 
     /* .footer_redes i{
@@ -712,4 +672,4 @@ footer{
         font-size: 24px;
 
     }
-}
+} 
