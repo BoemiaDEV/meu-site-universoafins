@@ -228,7 +228,7 @@ section{
 .card{
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
+    justify-content: center;
     align-items: center;
     /* overflow: hidden; */
     padding: 10px;
@@ -249,7 +249,7 @@ section{
 .card .svg{
     color: #ffff;
     width: 30px;
-    margin-left: 145px; 
+    
 }
 .button_card button{
     position: relative;
@@ -266,7 +266,9 @@ section{
     transition: 0.3s; 
     margin: 20px;
 } */
-
+.svg{
+    margin: auto;
+}
 
 .card i:hover {
     animation: girar 2s linear infinite;
@@ -527,6 +529,7 @@ footer{
         /* text-align: center; */
     }
     .card i{
+        padding: 10px;
         margin: 0;
         /* text-align: center; */
         /* align-items: center; */
@@ -604,6 +607,26 @@ footer{
         font-weight: bold;
     }
 
+    .texto{
+        text-align: center;
+        /* margin: auto; */
+        /* display: none; */
+        /* text-align: center; */
+    }
+    .texto h2, p {
+        text-align: left;
+        /* margin: auto; */
+        /* display: none; */
+        /* text-align: center; */
+    }
+    .card i{
+        padding: 10px;
+        margin: 0;
+        /* text-align: center; */
+        /* align-items: center; */
+        /* margin: auto; */
+    }
+
     .tag i{
         font-size: calc(2vw + 20px);
     }
@@ -615,7 +638,9 @@ footer{
     /* .footer_redes i{
         font-size: calc(2vw + 0px);
     } */
-
+    #logo{
+        width: 12.5rem;
+    }
 
 }
 
@@ -635,17 +660,25 @@ footer{
     }
     .mobile-menu-icon{
         display: block;
-        margin-left: 2.5rem;
+        margin-left: 0.625rem;
     }
     .mobile-menu-icon button{
+        /* width: 360px; */
+        font-size: 2.25rem;
         background-color: transparent;
         border: none;
         color: #ffff;
         cursor: pointer;
     }
+    .nav_link li{
+        font-size: 24px;
+
+    }
 
 
     .mobile-menu ul{
+        font-size: 24px;
+
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -654,6 +687,7 @@ footer{
     }
 
     .mobile-menu .nav-item{
+        
         display: block;
         padding-top: 1rem 2rem;
     }
@@ -672,5 +706,10 @@ footer{
     }
     .open{
         display: block;
+    }
+
+    .nav-link{
+        font-size: 24px;
+
     }
 }
