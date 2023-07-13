@@ -273,6 +273,7 @@ section{
 }
 
 footer{
+    padding-top: 10px;
     margin-top: 3.125rem;
     border-top: solid 0.3125rem #ffff; 
     align-items: center;
