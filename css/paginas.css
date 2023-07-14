@@ -381,14 +381,12 @@ aside h3{
         /* overflow: hidden; */
         /* box-sizing: border-box; */
     }
-
     section img{
         width: 100%;
         padding: 0;
         margin-bottom: 10px;
         border-radius: 0;
     }
-
     section h2{
         font-size: 24px;
         padding: 10px 10px;
@@ -399,7 +397,6 @@ aside h3{
         padding: 10px;
         margin: 0;
     }
-
     aside h2{
         margin: 0 0 20px 0;
         padding: 0px 20px;
@@ -411,10 +408,6 @@ aside h3{
         padding: 0px 20px;
         font-size: calc(2vw + 10px);
     }
-
-
-
-
     aside{
         max-width: calc(100vw - 40px);
         border-radius: 10px;
@@ -423,10 +416,6 @@ aside h3{
     #logo{
         width: 12.5rem;
     }
-
-    /* .tag i{
-        font-size: calc(2vw + 20px);
-    } */
 
     footer h2 { 
         font-size: 17px;
