@@ -24,7 +24,7 @@ article{
     background-color: #ffffff;
     box-sizing: border-box;
     margin: 1.25rem;
-    border-radius: 40px;
+    border-radius: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -43,12 +43,12 @@ article{
 
 
 article img{
-    border-radius: 50px;
-    width: 740px;
+    border-radius: 25px;
+    width: 100%;
     height: auto;
     box-sizing: border-box;
     /* margin: 1.25rem; */
-    padding: 2.5rem;
+    padding: 40px;
 }
 section{
     /* overflow: hidden; */
@@ -60,8 +60,8 @@ section{
 section h2{
     text-align: justify;
     font-size: 2.125rem;
-    padding: 0rem 2.5rem;
-    margin: 1.25rem 0rem 1.875rem;
+    padding: 0rem 20px;
+    margin: 0;
 }
 
 section p{
@@ -69,12 +69,12 @@ section p{
     color: #333;
     font-weight: lighter;
     font-size: 1.375rem;
-    padding: 0rem 2.5rem;
-    margin-bottom: 1.25rem;
+    padding: 0rem 20px;
+    margin: 1.25rem 0 1.25rem;
 }
 section img{
-    box-sizing: border-box;
-    width: 46.25rem;
+    width: 100%;
+    padding: 20px 20px;
 }
 aside img{
     border-radius: 100%;
@@ -95,7 +95,7 @@ aside{
     margin: 1.25rem;
     height: max-content;
     max-height: 728px;
-    border-radius: 2.5rem;
+    border-radius: 0.9375rem;
 }
 
 aside h2{
@@ -146,22 +146,11 @@ aside h3{
 }
 
 
-@media screen and (max-width: 1135px) {
+/* @media screen and (max-width: 1135px) {
     article{
         max-width: max-content;
-        /* overflow: hidden; */
-        /* box-sizing: border-box; */
     }
-
-    article img{
-        width: 640px;
-        margin: 0;
-        padding: 40px;
-
-    }
-
-
-}
+} */
 
 
 @media (min-width: 769px) and (max-width: 1023px) {
@@ -204,18 +193,13 @@ aside h3{
         overflow: hidden;
         max-width: calc(100vw - 40px);
         width: 100%;
-        /* overflow: hidden; */
-        /* box-sizing: border-box; */
     }
 
     article img{
-        /* max-width: 700px; */
         width: 100%;
         padding: 40px 40px;
         border-radius: 50px;
-        height: auto;
-        /* overflow: hidden; */
-        /* box-sizing: border-box; */
+        /* height: auto; */
     }
 
     .redes-aside i{
@@ -226,9 +210,9 @@ aside h3{
         /* max-width: 750px; */
         width: 100%;
         height: auto;
-        padding: 40px 40px;
+        padding: 20px 20px;
         box-sizing: border-box;
-        border-radius: 50px;
+        border-radius: 25px;
     }
     section h2{
         font-size: calc(2vw + 20px);
@@ -250,13 +234,13 @@ aside h3{
         overflow: hidden;
         max-width: calc(100vw - 40px);
         width: 100%;
-        /* overflow: hidden; */
-        /* box-sizing: border-box; */
+        border-radius: 15px;
     }
 
     article img{
-        /* max-width: 600px; */
+        padding: 20px;
         width: 100%;
+        border-radius: 25px;
     }
 
     main{
@@ -278,10 +262,13 @@ aside h3{
 
     section h2{
         font-size: calc(2vw + 20px);
+        padding: 0px 20px;
     }
 
-    section h3{
+    section p{
         font-size: calc(2vw + 10px);
+        padding: 0px 20px;
+        margin: 20px 0 20px;
     }
 
     aside h2{
@@ -302,8 +289,8 @@ aside h3{
     }
 
     section img{
-        /* max-width: 600px; */
         width: 100%;
+        border-radius: 0px;
     }
 
 }
@@ -318,40 +305,37 @@ aside h3{
     
     
     article{
-        /* overflow: hidden; */
         max-width: calc(100vw - 40px);
-        /* min-width: 427px; */
-        /* width: 300px; */
         overflow: hidden;
-        /* box-sizing: border-box; */
+        border-radius: 15px;
     }
 
     article img{
-        /* max-width: 490px; */
         width: 100%;
-        padding: 40px;
-        border-radius: 50px;
-        /* overflow: hidden; */
-        /* box-sizing: border-box; */
+        padding:  20px;
+        border-radius: 25px;
     }
 
     section h2{
         font-size: calc(2vw + 20px);
+        padding:  0 20px;
+        margin: 10px;
     }
     section p{
         font-size: calc(2vw + 10px);
+        margin: 10px;
+        padding:  0 10px;
     }
 
     section img{
         width: 100%;
-        padding: 40px 40px;
+        padding: 20px 0px;
+        border-radius: 0;
     }
 
     aside{
         overflow: hidden;
         max-width: calc(100vw - 40px);
-        /* max-width: 410px; */
-        /* width: 100%; */
         height: max-content;
         flex-wrap: nowrap;
     }
@@ -387,29 +371,32 @@ aside h3{
     article{
         max-width: calc(100vw - 40px);
         overflow: hidden;
-        border-radius: 20px;
+        border-radius: 10px;
     }
     article img{
         /* max-width: 490px; */
         width: 100%;
-        padding: 20px;
-        border-radius: 40px;
+        padding: 20px 0;
+        border-radius: 0px;
         /* overflow: hidden; */
         /* box-sizing: border-box; */
     }
 
     section img{
         width: 100%;
-        padding: 20px 20px;
+        padding: 0;
+        margin-bottom: 10px;
+        border-radius: 0;
     }
 
     section h2{
-        font-size: calc(2vw + 10px);
-        padding: 0 20px;
+        font-size: 24px;
+        padding: 10px 10px;
+        margin: 0;
     }
     section p{
-        font-size: calc(2vw + 0px);
-        padding: 20px;
+        font-size: 17px;
+        padding: 10px;
         margin: 0;
     }
 
@@ -429,24 +416,24 @@ aside h3{
 
 
     aside{
-        max-width: calc(100vw - 40px)
-    
+        max-width: calc(100vw - 40px);
+        border-radius: 10px;
     }
 
     #logo{
         width: 12.5rem;
     }
 
-    .tag i{
+    /* .tag i{
         font-size: calc(2vw + 20px);
-    }
+    } */
 
-    footer{
-        font-size: calc(2vw + 0px);
+    footer h2 { 
+        font-size: 17px;
     }
 
     .footer_redes i{
-        font-size: calc(2vw + 0px);
+        font-size: 22px;
     }
 }
 

@@ -209,13 +209,16 @@ section{
     width: var(--width-card);
     /* background-color: aqua; */
 }
-
 .card i{
+    padding: 10px;
     font-size: 20px;
-    margin-left: 9.0625rem;
-    margin-right: 0;
+    margin: auto;
+    margin-left: 140px;
+    margin-right: 0; 
     margin-top: 1.25rem;
 }
+
+
 .card img{
     width: 100%;
     padding: 1.875rem 0;
