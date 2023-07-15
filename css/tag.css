@@ -12,8 +12,15 @@
 
 }
 
+.tag img{
+    width: 35px;
+}
+
+
 .tag h1{
     font-size: 1.5rem;
+    font-weight: 600;
+
 }
 .tag i{
     font-size: 2.1875rem;

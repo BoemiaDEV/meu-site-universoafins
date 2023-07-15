@@ -1,0 +1,24 @@
+            <nav class="nav-bar">
+                <div class="mobile-menu-icon">
+                    <button onclick="menuShow()">&#9776;</button>
+                </div>
+                <div class="nav-list">
+                    <ul>
+                        <li class="nav-item"><a href="index.html" class="nav-link" id="Inicio">Início</a></li>
+                        <li class="nav-item"><a href="pag_galaxia.html" class="nav-link">Galáxia</a></li>
+                        <li class="nav-item"><a href="pag_buraconegro.html" class="nav-link">Buraco Negro</a></li>
+                        <li class="nav-item"><a href="Pag_planetas.html" class="nav-link">Planetas</a></li>
+                        <li class="nav-item"><a href="pag_telescopio.html" class="nav-link">Telescopios espaciais</a></li>
+                        <li class="nav-item"><a href="pag_nebulosas.html" class="nav-link">Nebulosas</a></li>
+                    </ul>
+            </nav>
+            <div class="mobile-menu">
+                <ul>
+                    <li class="nav-item"><a href="index.html" class="nav-link" id="Inicio">Início</a></li>
+                    <li class="nav-item"><a href="pag_galaxia.html" class="nav-link">Galáxia</a></li>
+                    <li class="nav-item"><a href="pag_buraconegro.html" class="nav-link">Buraco Negro</a></li>
+                    <li class="nav-item"><a href="Pag_planetas.html" class="nav-link">Planetas</a></li>
+                    <li class="nav-item"><a href="pag_telescopio.html" class="nav-link">Telescopios espaciais</a></li>
+                    <li class="nav-item"><a href="pag_nebulosas.html" class="nav-link">Nebulosas</a></li>
+                </ul>
+            </div>
