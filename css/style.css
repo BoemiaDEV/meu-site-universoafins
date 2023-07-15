@@ -116,6 +116,11 @@ header{
     transform-origin: left;
 }
 
+.sticky-aside a:hover {
+    text-decoration: underline;
+    
+}
+
 .login-button button {
     border: none;
     background-color: rgb(193, 37, 37);
