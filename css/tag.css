@@ -29,8 +29,6 @@
 main{
     overflow: visible;
     display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
     max-width: 77.5rem;
     width: 100%;
     height: auto;
@@ -38,7 +36,6 @@ main{
 }
 
 article{
-    /* overflow: hidden; */
     background-color: #ffffff;
     box-sizing: border-box;
     margin: 1.25rem;
@@ -49,7 +46,7 @@ article{
     flex-direction: column;
     text-align: justify;
     max-width: 77.5rem;
-    width: calc(100vw - 50px);
+    width: calc(100vw - 3.125rem);
     height: max-content; 
     
 }
@@ -67,52 +64,46 @@ aside img{
     height: auto;
 }
 aside{ 
-    /* position: sticky; */
-    /* top: 15px;  */
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* flex-wrap: wrap; */
     background-color: #ffffff;
-    /* max-width: 1240px; */
     max-width: 77.5rem;
-    width: calc(100vw - 50px);
+    width: calc(100vw - 3.125rem);
     height: max-content;
-    margin: 20px;
-    max-height: 728px;
+    margin: 1.25rem;
+    max-height: 45.5rem;
     border-radius: 0.9375rem;
 }
 
 aside h2{
-    font-size: max(0, 2em, 34px);
+    font-size: max(0, 2em, 2.125rem);
     text-align: center;
     margin-bottom: 1.25rem;
-    margin-top: 10px;
-    padding: 0 20px;
+    margin-top: 0.625rem;
+    padding: 0 1.25rem;
 }
 
 aside h3{
-    font-size: max(0, 1.5em, 29px);
+    font-size: max(0, 1.5em, 1.8125rem);
     text-align: center;
-    margin-bottom: 12px;
-    padding: 0 20px;
+    margin-bottom: 0.75rem;
+    padding: 0 1.25rem;
 }
 
 .redes-aside{
-    /* margin-top: 1.25rem; */
     font-size: 1.875rem;
 }
 
 .redes-aside i{
     margin: 0.3125rem;
-    padding: 10px 0;
+    padding: 0.625rem 0;
 }
 
 .card{
     box-sizing: border-box;
     width: max-content;
     height: max-content;
-    /* min-width: 380px; */
 }
 
 .texto{
@@ -131,14 +122,13 @@ aside h3{
     border-radius: 0.9375rem;
     width: calc(100vw - 37.5rem);
     width: 380px;
-    min-width: 380px;
+    min-width: 23.75rem;
 }
 
 @media (min-width: 890px) and (max-width: 1179px) {
     article{
         margin: auto;
         max-width: 69.3125rem;
-        /* width: max-content; */
         justify-content: center;
         height: max-content;   
         padding: 1.25rem;
@@ -174,8 +164,7 @@ aside h3{
 
 .header_box{
     border-radius: 0.9375rem;
-    /* width: calc(100vw - 37.5rem); */
-    width: 380px;
+    width: 23.75rem;
     min-width: 23.75rem;
 }
 
@@ -194,19 +183,19 @@ aside h3{
     }
 
     aside img{
-        width: 80px;
+        width: 5rem;
     }
 
     aside h2{
-        margin: 0 0 20px 0;
-        padding: 0px 20px;
+        margin: 0 0 1.25rem 0;
+        padding: 0px 1.25rem;
         font-size: 34px;
     }
 
     aside h3{
         margin: 0;
         padding: 0px 20px;
-        font-size: 22px;
+        font-size: 1.375rem;
     }
 
     article{

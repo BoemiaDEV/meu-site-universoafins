@@ -202,17 +202,14 @@ section{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    /* margin: 15px; */
 }
 .card{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* overflow: hidden; */
     padding: 0.625rem;
     width: var(--width-card);
-    /* background-color: aqua; */
 }
 .card i{
     padding: 10px;
@@ -387,7 +384,7 @@ footer{
         max-width: 100%;
     } 
     .middle-h2{
-        width: calc(100vw - 80px);
+        width: calc(100vw - 5rem);
         z-index: 1;
         height: auto;
         border-radius: 0px 0px 3.125rem 3.125rem; 
@@ -572,22 +569,15 @@ footer{
 
     .texto{
         text-align: center;
-        /* margin: auto; */
-        /* display: none; */
-        /* text-align: center; */
+
     }
     .texto h2, p {
         text-align: left;
-        /* margin: auto; */
-        /* display: none; */
-        /* text-align: center; */
+
     }
     .card i{
         padding: 0.625rem;
         margin: 0;
-        /* text-align: center; */
-        /* align-items: center; */
-        /* margin: auto; */
     }
 
     .tag i{
@@ -598,9 +588,6 @@ footer{
         font-size: 0.9375rem;
     }
 
-    /* .footer_redes i{
-        font-size: calc(2vw + 0px);
-    } */
     #logo{
         width: 12.5rem;
     }
@@ -626,7 +613,6 @@ footer{
         margin-left: 0.625rem;
     }
     .mobile-menu-icon button{
-        /* width: 360px; */
         font-size: 2.25rem;
         background-color: transparent;
         border: none;

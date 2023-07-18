@@ -1,4 +1,3 @@
-
 .tag{
     padding: 1.25rem;
     margin: 1.25rem;
@@ -9,7 +8,6 @@
 .tag i{
     color: #ffffff;
     font-size: 2.1875rem;
-
 }
 main{
     overflow: visible;
@@ -20,38 +18,27 @@ main{
     height: auto;
 }
 article{
-    /* overflow: hidden; */
     background-color: #ffffff;
     box-sizing: border-box;
     margin: 1.25rem;
-    border-radius: 15px;
+    border-radius: 0.9375rem;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    /* text-align: justify; */
     max-width: 50rem;
     width: 100%;
     height: max-content; 
     padding: 0rem;
 }
-
-/* .sticky-aside{
-    position: sticky;
-    top: 60px;
-} */
-
-
 article img{
-    border-radius: 25px;
+    border-radius: 1.5625rem;
     width: 100%;
     height: auto;
     box-sizing: border-box;
-    /* margin: 1.25rem; */
-    padding: 40px;
+    padding: 2.5rem;
 }
 section{
-    /* overflow: hidden; */
     display: flex;
     justify-content: center;
     flex: wrap;
@@ -60,70 +47,61 @@ section{
 section h2{
     text-align: justify;
     font-size: 2.125rem;
-    padding: 0rem 20px;
+    padding: 0rem 1.25rem;
     margin: 0;
 }
-
 section p{
     text-align: justify;
     color: #333;
     font-weight: lighter;
     font-size: 1.375rem;
-    padding: 0rem 20px;
+    padding: 0rem 1.25rem;
     margin: 1.25rem 0 1.25rem;
 }
 section img{
     width: 100%;
-    padding: 20px 20px;
+    padding: 1.25rem 1.25rem;
 }
 aside img{
     border-radius: 100%;
     margin: 1.25rem;
-    width: 100px;
+    width: 6.25rem;
     height: auto;
 }
 aside{ 
     position: sticky;
-    top: 15px; 
+    top: 0.9375rem; 
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* flex-wrap: wrap; */
     background-color: #ffffff;
     max-width: 22.5rem;
     width: 100%;
     margin: 1.25rem;
     height: max-content;
-    max-height: 728px;
+    max-height: 45.5rem;
     border-radius: 0.9375rem;
 }
-
 aside h2{
-    font-size: max(0, 2em, 34px);
+    font-size: max(0, 2em, 2.125rem);
     text-align: center;
     margin-bottom: 1.25rem;
-    margin-top: 10px;
-    padding: 0 20px;
+    margin-top: 0.625rem;
+    padding: 0 1.25rem;
 }
-
 aside h3{
-    font-size: max(0, 1.5em, 29px);
+    font-size: max(0, 1.5em, 1.8125rem);
     text-align: center;
-    margin-bottom: 12px;
-    padding: 0 20px;
+    margin-bottom: 0.75rem;
+    padding: 0 1.25rem;
 }
-
 .redes-aside{
-    /* margin-top: 1.25rem; */
     font-size: 1.875rem;
 }
-
 .redes-aside i{
     margin: 0.3125rem;
-    padding: 10px 0;
+    padding: 0.625rem 0;
 }
-
-
 @keyframes girar {
     from {
         transform: rotate(0deg);
@@ -133,38 +111,22 @@ aside h3{
     }
 }
 .redes-aside i:hover {
-    /* Você pode mudar as propriedades abaixo de acordo com o seu gosto */
-    transform: scale(1.2); /* Aumenta o tamanho do ícone em 20% */
-    transition: 0.3s; /* Faz a transição suave */
-    filter: brightness(150%); /* Aumenta o brilho do ícone em 50% */
+    transform: scale(1.2); 
+    transition: 0.3s;
+    filter: brightness(150%);
 }
-
-
-
 .tag:hover {
     animation: girar 2s linear infinite;
 }
-
-
-/* @media screen and (max-width: 1135px) {
-    article{
-        max-width: max-content;
-    }
-} */
-
-
 @media (min-width: 769px) and (max-width: 1023px) {
     .nav-link{
         font-size: 22px;
     }
-    
     main{
         justify-content: center;
         align-items: center;
         flex-direction: column;
     }
-    
-    
     aside{
         overflow: hidden;
         max-width: 750px;
@@ -172,57 +134,46 @@ aside h3{
         height: max-content;
         flex-wrap: nowrap;
     }
-
     aside img{
-        width: 80px;
+        width: 5rem;
     }
-
     aside h2{
-        margin: 0 0 20px 0;
-        padding: 0px 20px;
-        font-size: 34px;
+        margin: 0 0 1.25rem 0;
+        padding: 0px 1.25rem;
+        font-size: 2.125rem;
     }
-
     aside h3{
         margin: 0;
-        padding: 0px 20px;
-        font-size: 22px;
+        padding: 0px 1.25rem;
+        font-size: 1.375rem;
     }
-
     article{
         overflow: hidden;
-        max-width: calc(100vw - 40px);
+        max-width: calc(100vw - 2.5rem);
         width: 100%;
     }
-
     article img{
         width: 100%;
-        padding: 40px 40px;
-        border-radius: 50px;
-        /* height: auto; */
+        padding: 2.5rem 2.5rem;
+        border-radius: 3.125rem;
     }
-
     .redes-aside i{
-        margin: 20px 0 20px 0;
+        margin: 1.25rem 0 1.25rem 0;
     }
-
     section img{
-        /* max-width: 750px; */
         width: 100%;
         height: auto;
-        padding: 20px 20px;
+        padding: 1.25rem 1.25rem;
         box-sizing: border-box;
-        border-radius: 25px;
+        border-radius: 1.5625rem;
     }
     section h2{
-        font-size: calc(2vw + 20px);
+        font-size: calc(2vw + 1.25rem);
     }
-
     section h3{
-        font-size: calc(2vw + 10px);
+        font-size: calc(2vw + 0.625rem);
     }
 }
-
 @media (min-width: 640px) and (max-width: 768px) {
     header{
         justify-content: center;
@@ -232,15 +183,15 @@ aside h3{
     }
     article{
         overflow: hidden;
-        max-width: calc(100vw - 40px);
+        max-width: calc(100vw - 2.5rem);
         width: 100%;
-        border-radius: 15px;
+        border-radius: 0.9375rem;
     }
 
     article img{
-        padding: 20px;
+        padding: 1.25rem;
         width: 100%;
-        border-radius: 25px;
+        border-radius: 1.5625rem;
     }
 
     main{
@@ -251,41 +202,41 @@ aside h3{
     
     aside{
         overflow: hidden;
-        max-width: calc(100vw - 40px);
+        max-width: calc(100vw - 2.5rem);
         height: max-content;
         flex-wrap: nowrap;
     }
 
     aside img{
-        width: 80px;
+        width: 5rem;
     }
 
     section h2{
-        font-size: calc(2vw + 20px);
-        padding: 0px 20px;
+        font-size: calc(2vw + 1.25rem);
+        padding: 0px 1.25rem;
     }
 
     section p{
-        font-size: calc(2vw + 10px);
-        padding: 0px 20px;
-        margin: 20px 0 20px;
+        font-size: calc(2vw + 0.625rem);
+        padding: 0px 1.25rem;
+        margin: 1.25rem 0 1.25rem;
     }
 
     aside h2{
         text-align: center;
-        margin-bottom: 20px;
-        padding: 0px 40px;
-        font-size: calc(2vw + 20px);
+        margin-bottom: 1.25rem;
+        padding: 0px 2.5rem;
+        font-size: calc(2vw + 1.25rem);
     }
 
     aside h3{
         text-align: center;
         margin: 0;
-        padding: 0px 40px;
-        font-size: calc(2vw + 10px);
+        padding: 0px 2.5rem;
+        font-size: calc(2vw + 0.625rem);
     }
     .redes-aside i{
-        margin: 20px 0 20px 0;
+        margin: 1.25rem 0 1.25rem 0;
     }
 
     section img{
@@ -294,92 +245,74 @@ aside h3{
     }
 
 }
-
-
 @media (min-width: 425px) and (max-width: 639px) {
     main{
         justify-content: center;
         align-items: center;
         flex-direction: column;
     }
-    
-    
     article{
-        max-width: calc(100vw - 40px);
+        max-width: calc(100vw - 2.5rem);
         overflow: hidden;
-        border-radius: 15px;
+        border-radius: 0.9375rem;
     }
-
     article img{
         width: 100%;
-        padding:  20px;
-        border-radius: 25px;
+        padding:  1.25rem;
+        border-radius: 1.5625rem;
     }
-
     section h2{
-        font-size: calc(2vw + 20px);
-        padding:  0 20px;
-        margin: 10px;
+        font-size: calc(2vw + 1.25rem);
+        padding:  0 1.25rem;
+        margin: 0.625rem;
     }
     section p{
-        font-size: calc(2vw + 10px);
-        margin: 10px;
+        font-size: calc(2vw + 0.625rem);
+        margin: 0.625rem;
         padding:  0 10px;
     }
-
     section img{
         width: 100%;
-        padding: 20px 0px;
+        padding: 1.25rem 0px;
         border-radius: 0;
     }
-
     aside{
         overflow: hidden;
-        max-width: calc(100vw - 40px);
+        max-width: calc(100vw - 2.5rem);
         height: max-content;
         flex-wrap: nowrap;
     }
-
     aside img{
-        width: 80px;
+        width: 5rem;
     }
-
     aside h2{
-        margin: 0 0 20px 0;
-        padding: 0px 20px;
-        font-size: calc(2vw + 20px);
+        margin: 0 0 1.25rem 0;
+        padding: 0px 1.25rem;
+        font-size: calc(2vw + 1.25rem);
     }
-
     aside h3{
         margin: 0;
-        padding: 0px 20px;
-        font-size: calc(2vw + 10px);
+        padding: 0px 1.25rem;
+        font-size: calc(2vw + 0.625rem);
     }
-
     .redes-aside i{
-        margin: 20px 0 20px 0;
+        margin: 1.25rem 0 1.25rem 0;
     }
-
 }
-
 @media (min-width: 250px) and (max-width: 424px){
-
     main{
         flex-direction: column;
     }
 
     article{
-        max-width: calc(100vw - 40px);
+        max-width: calc(100vw - 2.5rem);
         overflow: hidden;
-        border-radius: 10px;
+        border-radius: 0.625rem;
     }
     article img{
-        /* max-width: 490px; */
         width: 100%;
-        padding: 20px 0;
+        padding: 1.25rem 0;
         border-radius: 0px;
-        /* overflow: hidden; */
-        /* box-sizing: border-box; */
     }
     section img{
         width: 100%;
@@ -388,29 +321,29 @@ aside h3{
         border-radius: 0;
     }
     section h2{
-        font-size: 24px;
-        padding: 10px 10px;
+        font-size: 1.5rem;
+        padding: 0.625rem 0.625rem;
         margin: 0;
     }
     section p{
-        font-size: 17px;
-        padding: 10px;
+        font-size: 1.0625rem;
+        padding: 0.625rem;
         margin: 0;
     }
     aside h2{
-        margin: 0 0 20px 0;
-        padding: 0px 20px;
-        font-size: calc(2vw + 20px);
+        margin: 0 0 1.25rem 0;
+        padding: 0px 1.25rem;
+        font-size: calc(2vw + 1.25rem);
     }
 
     aside h3{
         margin: 0;
-        padding: 0px 20px;
-        font-size: calc(2vw + 10px);
+        padding: 0px 1.25rem;
+        font-size: calc(2vw + 0.625rem);
     }
     aside{
-        max-width: calc(100vw - 40px);
-        border-radius: 10px;
+        max-width: calc(100vw - 2.5rem);
+        border-radius: 0.625rem;
     }
 
     #logo{
@@ -418,11 +351,11 @@ aside h3{
     }
 
     footer h2 { 
-        font-size: 17px;
+        font-size: 1.0625rem;
     }
 
     .footer_redes i{
-        font-size: 22px;
+        font-size: 1.375rem;
     }
 }
 
