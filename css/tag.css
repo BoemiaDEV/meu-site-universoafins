@@ -104,6 +104,7 @@ aside h3{
     box-sizing: border-box;
     width: max-content;
     height: max-content;
+    /* max-height: 660px; */
 }
 
 .texto{
