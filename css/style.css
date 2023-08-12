@@ -19,7 +19,7 @@ body{
     display: flex;
     flex-direction: column;
     vertical-align: baseline;
-    background: linear-gradient(to right bottom ,#0f0119,#3f024c,#0c155a,#02165e,#000000);
+    background: linear-gradient(to right bottom ,#0f0119,#3c0149,#00010a,#021b72,#000000);
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 77.5rem;
@@ -375,11 +375,7 @@ footer{
             height: 100%;
             border: none;
         }
-
-
         
-
-
     iframe{
         max-width: 100%;
     } 
@@ -398,7 +394,6 @@ footer{
         flex-wrap: wrap;
         justify-content: center;
         align-items: stretch;
-
     }
 .card{
     box-sizing: border-box;
@@ -406,7 +401,6 @@ footer{
     height: max-content;
     min-width: 23.75rem;
 }
-
 .texto{
     text-align: center;
 }
@@ -417,14 +411,14 @@ footer{
     padding: 0.625rem;
     margin: 0;
 }
-
-
 .header_box{
     border-radius: 0.9375rem;
     width: calc(100vw - 37.5rem);
     min-width: 23.75rem;
 }
-
+.texto-footer h2{
+    padding: 20px;
+}
 }
 
 @media (min-width: 480px) and (max-width: 807px){
@@ -517,6 +511,9 @@ footer{
     .mobile-menu-icon button{
         font-size: 2.125rem;
     }
+    .texto-footer h2{
+        padding: 20px;
+    }
 
 
 }
@@ -592,6 +589,10 @@ footer{
         width: 12.5rem;
     }
 
+    .texto-footer h2{
+        padding: 20px;
+    }
+
 }
 
 @media (min-width: 320px) and (max-width: 962px) { 
@@ -660,5 +661,9 @@ footer{
     .nav-link{
         font-size: 24px;
 
+    }
+
+    .texto-footer h2{
+        padding: 20px;
     }
 } 
